@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Minesweeper</h1>
+    </header>
+    <section class="mainMenu">
+        <ul>
+            <li>
+                <label>
+                    <input type="radio" name="chooseDifficult" class="chooseDifficult" value="0">
+                    <p>Easy</p>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="chooseDifficult" class="chooseDifficult" value="1">
+                    <p>Medium</p>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="chooseDifficult" class="chooseDifficult" value="2">
+                    <p>Hard</p>
+                    <span></span>
+                </label>
+            </li>
+        </ul>
+        <div class="startButton">
+            Play
+        </div>
+    </section>
+    <main class="gameBoard">
+        
+    </main>
+    <section class="scoreBoard">
+        Flags Left: <span id="flagsLeft"></span>
+        <div id="result"></div>
+    </section>
+
+    <script src="./js/index.js" charset="utf-8"></script>
+</body>
+</html>
